@@ -231,7 +231,7 @@ nav button{
     width: 1080px;
     height: 430px;
     margin: auto;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 .target-txt{
     text-align: center;
@@ -376,3 +376,69 @@ nav button{
     cursor: pointer;
     margin-top: 25px;
 }
+/* need support part */
+#need-part{
+    width: 1080px;
+    height: 300px;
+    border-radius: 16px;
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(assets/handshake.jpg);
+    background-size: cover;
+    background-position: center ;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inner-part{
+    width: 1000px;
+    text-align: center;
+
+}
+.inner-part h2{
+    margin-bottom: 8px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.inner-part p{
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    text-align: center;
+}
+.inner-part input{
+    width: 525px;
+    height: 54px;
+    box-sizing: border-box;
+    border:none;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 15px;
+    font-size: 14px;
+    color: gray;
+}
+.inner-part button{
+    width: 115px;
+    height: 54px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(255, 255, 255);
+    padding: 15px;
+    cursor: pointer;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+}
+
